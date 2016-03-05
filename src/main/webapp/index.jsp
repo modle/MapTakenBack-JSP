@@ -10,7 +10,7 @@
 
 
 <jsp:useBean id="students" 
-                    class="com.tutorialspoint.StudentsBean"> 
+                    class="com.maptakenback.StudentsBean"> 
    <jsp:setProperty name="students" property="firstName"
                     value="Zara"/>
    <jsp:setProperty name="students" property="lastName" 
