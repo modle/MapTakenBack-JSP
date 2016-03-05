@@ -5,7 +5,7 @@ public class StudentsBean implements java.io.Serializable
 {
    private String firstName = null;
    private String lastName = null;
-   private int age = 0;
+   private Integer age = 0;
 
    public StudentsBean() {
    }
