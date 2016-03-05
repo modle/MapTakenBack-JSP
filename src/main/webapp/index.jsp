@@ -12,11 +12,9 @@
 <jsp:useBean id="students" 
                     class="com.maptakenback.StudentsBean"> 
    <jsp:setProperty name="students" property="firstName"
-                    value="Zara"/>
+                    value="Matt"/>
    <jsp:setProperty name="students" property="lastName" 
-                    value="Ali"/>
-   <jsp:setProperty name="students" property="age" 
-                    value="10"/>
+                    value="Odle"/>
 </jsp:useBean>
 
 <p>Student First Name: 
@@ -24,9 +22,6 @@
 </p>
 <p>Student Last Name: 
    <jsp:getProperty name="students" property="lastName"/>
-</p>
-<p>Student Age: 
-   <jsp:getProperty name="students" property="age"/>
 </p>
 
 </body>
